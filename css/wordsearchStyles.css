@@ -1,0 +1,173 @@
+table{
+border-collapse: collapse;
+}
+
+td{
+cursor: pointer;
+border: 1px solid black;
+width: 19px;
+height: 19px;
+text-align: center;
+}
+
+td.selected{
+  background-color: yellow;
+}
+
+td.found{
+background-color: rgb(70, 89, 255);
+}
+
+#table{
+margin-left: 49px;
+float: left;
+width: 499px;
+height: 499px;
+}
+
+ul li{
+font-size: 9px;
+}
+#count{
+
+text-align: center;
+font-size: 9px;
+}
+
+#hints{
+display: block;
+float: left;      
+}
+
+#found{
+display: block;
+float: left;
+
+}
+
+#testing{
+float: left;
+display: block;
+}
+
+ul li div{
+visibility: hidden;
+}
+
+#header{
+text-align: left;
+margin-left:100px;
+font-size: 1.7em;
+margin-left: 50px;
+
+}
+
+li div{
+font-size: 20px;
+}
+
+li span{
+font-size: 20px;
+}
+
+body {
+background-image: url("../image/clouds.jpg");
+background-repeat:no-repeat;
+background-size: fill;
+margin: 0;
+padding: 0;
+
+}
+
+.popup{
+width: 400px;
+text-align: center;
+background-color: white;
+padding:  0px 0px 15px 0px;
+border-radius: 6px;
+position: absolute;
+top: 0%;
+left: 50%;
+border-style: outset;
+border-color: black;
+border-width: 2px;
+transform: translate(-50%, -50%) scale(0.1);
+font-family: 'Poppints', sans-serif;
+transition: transform 0.4s, top 0.4s;
+visibility: hidden;
+}
+
+.popup h2{
+font-size: 25px;
+font-weight:  500;
+margin: 25px 0px 0px;
+}
+
+.popup button{
+width: 20%;
+margin-top: 10px;
+background: rgb(109, 224, 109);
+padding: 2px 0px 2px;
+color:#fff;
+border: 1;
+outline: none;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.popup img{
+width: 100px;
+margin: -40px;
+border-radius: 50%;
+
+}
+
+.popupVis{
+visibility: visible;
+top: 50%;
+transform: translate(-50%, -50%) scale(1);
+}
+
+img.showHints{
+cursor: pointer;
+
+}
+
+.showWord {
+visibility: hidden;
+text-transform: lowercase;
+text-decoration: underline;
+color: red;
+
+}
+
+#rectangle{
+margin-left: 50px;
+width: 200px;
+}
+nav{
+position: absolute;
+display: flex;
+background: rgb(186, 207, 219);
+bottom: 0;
+height: 100px;
+width: 100%;
+padding-top: 5px;
+padding-left: 5px;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+
+form{
+margin-left: 5px;
+padding-top: 5px;
+
+}
+
+.field{
+display: inline;
+margin-right: 20px;
+}

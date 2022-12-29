@@ -1,0 +1,21 @@
+8
+BINARY JAVA ALGORITHM PYTHON HASKELL LOOP CONDITION RECURSION
+Counting using 0 and 1
+Smart beans
+Sequence of steps to solve a problem
+Versitile snake
+Rhymes with rascal
+Allows you to repeat an action
+A test before an action takes place
+Inception
+10 10
+B I N A R Y . . . A
+. P L . . . . . L C
+. Y L . . L . G . O
+J T E . . . O . . N
+A H K . . R . O . D
+V O S . I . . . P I
+A N A T . . . . . T
+. . H . . . . . . I
+. M . . . . . . . O
+. R E C U R S I O N

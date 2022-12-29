@@ -1,0 +1,79 @@
+<!--
+  Things to fix some point this week
+  1. Comment the code properly
+  2. (Done)Remove the inner scc and create a css file to hold the styles
+  3. (Done)Put files in the folders, and organize them accordingly 
+  4. Figure out wasys to make your code more efficent.
+  5. Review the code you wrote and try to fully undersatand how everything works
+  6. Takes notes, kinda like a code review.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Search</title>
+  <link href="../css/wordsearchStyles.css" rel="stylesheet" >
+  <link rel="shortcut icon" href="#">
+  <script src="../javascript/backend.js" type="text/javascript"></script>
+  <style>
+    
+  </style>
+ 
+</head>
+<body>
+ <audio id="selectSound" class="sound"> <source src ="/sounds/select.mp3" /> </audio>
+ <audio id="deselectSound" class="sound"> <source src="/sounds/deselect.mp3" /></audio>
+ <audio id="clearSound" class="sound"> <source src="/sounds/clearSound.mp3" /></audio>
+ <audio id="wordFoundSound" class="sound"> <source src="/sounds/wordFoundSound.mp3" /></audio>
+ <audio id="winnerSound" class="sound"> <source src="/sounds/winnerSound.mp3" /></audio>
+ <audio id="backgroundMusic" loop> <source src="/sounds/backgroundMusic.mp3" /></audio>
+
+
+    
+ <h1 id="header" style="margin-left: 100px">Royce's Word Search </h1>
+
+  <div id="rectangle"> 
+    <span class="time" id="display">00:00:00</span>
+  </div>
+
+ <table id ="table" border ="2px"></table>
+
+  <ul id="hints" style="line-height:200%">
+    <p style="font-size: 20px"> <b>Hints</b></p>  
+  </ul> 
+    
+  <ul id="found"  style="line-height:225%">
+    <p style="font-size: 20px"><b> Words found </b></p>
+  </ul>
+
+
+  <div id ="victory" class="popup">
+    <img src="/image/okay.png">
+    <h2>Well Done!</h2>
+    <p> You successfully completed my wordsearch</p>
+    <p id="finalTime"></p>
+    <button type="button" onclick="closePopup()">Ok</button>
+  </div>
+ <nav>
+  <button id ="clear">clear</button>  
+  <button id="load">Load Puzzle</button>
+  <input id="input" type="file"/>
+
+        <div class="field">
+            <input id="sfxSlider" type="range" min="0" max="100" value="100" step="1">
+            <label> SFX</label>
+        </div>
+
+        <div class="field">
+          <input id="musicSlider" type="range" min="0" max="100" value="100" step="1">
+          <label> Music</label>
+      </div>
+
+      <img id="pause_play" src="../image/pause.png">
+  
+
+</nav>
+</body>
+</html>
